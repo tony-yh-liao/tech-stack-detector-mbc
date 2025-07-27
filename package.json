@@ -1,0 +1,47 @@
+{
+  "name": "tech-detector-extension",
+  "version": "1.0.0",
+  "description": "Chrome extension to detect technologies used on websites",
+  "main": "popup.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:content": "jest tests/content.test.js",
+    "test:popup": "jest tests/popup.test.js"
+  },
+  "keywords": [
+    "chrome-extension",
+    "technology-detection",
+    "web-development",
+    "javascript"
+  ],
+  "author": "Tech Detector Team",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "setupFilesAfterEnv": ["<rootDir>/tests/setup.js"],
+    "collectCoverageFrom": [
+      "content.js",
+      "popup.js",
+      "background.js"
+    ],
+    "coverageReporters": [
+      "text",
+      "lcov",
+      "html"
+    ],
+    "testMatch": [
+      "**/tests/**/*.test.js"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "json"
+    ],
+    "testTimeout": 10000
+  }
+} 
