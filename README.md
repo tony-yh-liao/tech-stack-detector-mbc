@@ -1,5 +1,7 @@
 # Tech Stack Detector Chrome Extension
 
+> **🤖 AI-Generated Code**: This Chrome extension was developed using [Cursor AI](https://cursor.sh), an AI-powered code editor that assisted in writing, debugging, and testing the entire codebase. The development process involved iterative refinement of features, comprehensive test suite creation, and optimization of detection algorithms.
+
 A Chrome extension that detects frameworks, libraries, and technologies used on websites. The extension provides detailed analysis with depth indicators, groups technologies by domain, and offers a paginated interface for easy browsing.
 
 ## Features
@@ -155,6 +157,23 @@ tests/
 ```
 
 ## Development
+
+### AI-Assisted Development
+
+This project was developed using **Cursor AI**, an AI-powered code editor that significantly accelerated the development process:
+
+- **🧠 Intelligent Code Generation**: Cursor AI helped write the initial detection algorithms and UI components
+- **🔍 Smart Debugging**: AI assistance in identifying and fixing detection issues and false positives
+- **🧪 Test Suite Creation**: Comprehensive test coverage was developed with AI guidance
+- **⚡ Rapid Iteration**: Features were refined and optimized through AI-assisted development
+- **📚 Documentation**: README and code comments were enhanced with AI assistance
+
+The development workflow involved:
+1. **Feature Planning**: Defining requirements and detection capabilities
+2. **AI-Assisted Implementation**: Writing code with Cursor AI's intelligent suggestions
+3. **Testing & Debugging**: Using AI to identify edge cases and improve accuracy
+4. **Optimization**: Refining performance and user experience with AI guidance
+5. **Documentation**: Creating comprehensive docs with AI assistance
 
 ### Project Structure
 
